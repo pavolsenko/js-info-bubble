@@ -1,5 +1,6 @@
 /**
- * CSS3 InfoBubble with tabs for Google Maps API V3 forked from googlemaps/js-info-bubble
+ * CSS3 InfoBubble with tabs for Google Maps API V3
+ * pavolsenko/js-info-bubble forked from googlemaps/js-info-bubble
  */
 
 /**
