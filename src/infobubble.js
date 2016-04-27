@@ -1,34 +1,9 @@
-// ==ClosureCompiler==
-// @compilation_level ADVANCED_OPTIMIZATIONS
-// @externs_url https://raw.githubusercontent.com/google/closure-compiler/master/contrib/externs/maps/google_maps_api_v3_16.js
-// ==/ClosureCompiler==
-
 /**
- * @name CSS3 InfoBubble with tabs for Google Maps API V3
- * @version 0.8
- * @author Luke Mahe
- * @fileoverview
- * This library is a CSS Infobubble with tabs. It uses css3 rounded corners and
- * drop shadows and animations. It also allows tabs
+ * CSS3 InfoBubble with tabs for Google Maps API V3 forked from googlemaps/js-info-bubble
  */
 
-/*
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- *     http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
-
-
 /**
- * A CSS3 InfoBubble v0.8
+ * A CSS3 InfoBubble
  * @param {Object.<string, *>=} opt_options Optional properties to set.
  * @extends {google.maps.OverlayView}
  * @constructor
