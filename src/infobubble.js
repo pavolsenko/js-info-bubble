@@ -207,8 +207,6 @@ InfoBubble.prototype.buildDom_ = function() {
 
   // Content area
   var contentContainer = this.contentContainer_ = document.createElement('DIV');
-  contentContainer.style['overflowX'] = 'auto';
-  contentContainer.style['overflowY'] = 'auto';
   contentContainer.style['cursor'] = 'default';
   contentContainer.style['clear'] = 'both';
   contentContainer.style['position'] = 'relative';
