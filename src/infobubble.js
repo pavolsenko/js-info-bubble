@@ -70,6 +70,8 @@ function InfoBubble(opt_options) {
     options['closeSrc'] = this.CLOSE_SRC_;
   }
 
+  this.set('closeSrc', options['closeSrc']);
+
   this.buildDom_();
   this.setValues(options);
 }
