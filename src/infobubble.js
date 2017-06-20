@@ -70,6 +70,8 @@ function InfoBubble(opt_options) {
     options['closeSrc'] = this.CLOSE_SRC_;
   }
 
+  this.set('closeSrc', options['closeSrc']);
+
   this.buildDom_();
   this.setValues(options);
 }
@@ -198,7 +200,6 @@ InfoBubble.prototype.buildDom_ = function() {
   close.style['border'] = 0;
   close.style['zIndex'] = this.baseZIndex_ + 1;
   close.style['cursor'] = 'pointer';
-  close.src = this.get('closeSrc');
 
   var that = this;
   google.maps.event.addDomListener(close, 'click', function() {
